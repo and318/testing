@@ -10,7 +10,7 @@
               <!-- Error -->
               <span v-if="formHasErrors" class="has-text-danger">
                 <i class="mdi mdi-alert"></i>
-                <h6>Usuario o Contraseña incorrectos, Intente nuevamente.</h6>
+                Usuario o Contraseña incorrectos, Intente nuevamente.
               </span>
             </div>
             <div class="field">
