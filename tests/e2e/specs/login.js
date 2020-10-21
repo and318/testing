@@ -19,6 +19,6 @@ describe('Login',()=>{
         cy.get('#email').type('hola@mundo.com')
         cy.get('#password').type('password')
         cy.get('.button').click()
-        cy.contains('h6', 'Usuario o Contraseña incorrectos, Intente nuevamente.')
+        cy.contains('Usuario o Contraseña incorrectos, Intente nuevamente.')
     })
 }) 
